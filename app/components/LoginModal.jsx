@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
 
 const LoginModal = ({ showModal, onClose }) => {
-  if (!showModal) return null;
 
   const [formData, setFormData] = useState({
     email: '',
     password: '',
   });
+
+  if (!showModal) return null;
+
+  
 
   const handleChange = (e) => {
     const { name, value } = e.target;

@@ -4,8 +4,7 @@ import axios from 'axios';
 import ReCAPTCHA from 'react-google-recaptcha';
 
 const PostVIANModal = ({ showModal, onClose }) => {
-  if (!showModal) return null;
-
+  
   const [formData, setFormData] = useState({
     title: '',
     description: '',
@@ -28,6 +27,10 @@ const PostVIANModal = ({ showModal, onClose }) => {
   const [locationOptions, setLocationOptions] = useState([]);
   const [loadingLocations, setLoadingLocations] = useState(false);
   const [successMessage, setSuccessMessage] = useState(null);
+
+  if (!showModal) return null;
+
+  
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;

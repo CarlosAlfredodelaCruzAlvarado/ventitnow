@@ -95,7 +95,7 @@ const About = ({ setActiveTab }) => (
     <h3>Welcome to VentItNow!, your go-to platform for sharing your negative experiences with products and services. Our mission is to empower consumers by giving them a voice to express their frustrations, provide feedback, and help others make informed decisions.</h3>
     <br />
     <h2 className='font-bold'>Our Mission</h2>
-    <h3>At VentItNow!, we believe that every consumer deserves to be heard. Whether it's a faulty product, poor customer service, or misleading advertising, your experiences matter. We aim to create a transparent environment where consumers can share their stories, and companies can learn from them to improve their offerings.</h3>
+    <h3>At VentItNow!, we believe that every consumer deserves to be heard. Whether it&apos;s a faulty product, poor customer service, or misleading advertising, your experiences matter. We aim to create a transparent environment where consumers can share their stories, and companies can learn from them to improve their offerings.</h3>
     <br />
     <h2 className='font-bold'>Why VentItNow! Exists</h2>
     <h3>We understand how frustrating it can be when a product or service doesn’t live up to expectations. VentItNow! was born out of the need for a space where consumers can openly discuss their grievances without fear of censorship or judgment. By providing this platform, we hope to foster better consumer-company relationships and drive improvements in the market.</h3>
@@ -134,7 +134,7 @@ const Terms = ({ setActiveTab }) => (
     <h3>By using this site, you consent to the collection and use of your information as described in our Privacy Policy.</h3>
     <br />
     <h2 className='font-bold'>4. Disclaimers and Limitation of Liability</h2>
-    <h3>The information on VentItNow! is provided on an "as is" basis. We make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website or the information, products, services, or related graphics contained on the website.</h3>
+    <h3>The information on VentItNow! is provided on an &quot;as is&quot; basis. We make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website or the information, products, services, or related graphics contained on the website.</h3>
     <h3>VentItNow! will not be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with the use of this site.</h3>
     <br />
     <h2 className='font-bold'>5. Modifications</h2>
@@ -146,7 +146,7 @@ const PrivacyPolicy = () => (
   <div className='text-justify'>
     <h1 className='font-bold'>Privacy Policy</h1>
     <br />
-    <h3>VentItNow! ("we", "our", "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <span className='text-blue-600 cursor-pointer'><Link href="/">VentItAllNow.com</Link></span>. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.</h3>
+    <h3>VentItNow! (&quot;we&quot;, &quot;our&quot;, &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <span className='text-blue-600 cursor-pointer'><Link href="/">VentItAllNow.com</Link></span>. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.</h3>
     <br/>
     <h2 className='font-bold'>1. Information We Collect</h2>
     <h3>Personal Data: We may collect personally identifiable information, such as your name, email address, and contact details, when you voluntarily submit it to us, for example, when you register for an account, submit content, or subscribe to our newsletter.</h3>
@@ -192,7 +192,7 @@ const FAQ = ({ setActiveTab }) => (
     <br />
 
     <h2 className="font-bold">2. How do I post a complaint?</h2>
-    <h3>To post a complaint, click on the "Post Your VIAN" button on the main page. Fill out the form with all the necessary details about your experience, and submit it. Your complaint will be reviewed before being published.</h3>
+    <h3>To post a complaint, click on the &quot;Post Your VIAN&quot; button on the main page. Fill out the form with all the necessary details about your experience, and submit it. Your complaint will be reviewed before being published.</h3>
     <br />
 
     <h2 className="font-bold">3. Is there a cost to use VentItNow!?</h2>

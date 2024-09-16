@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 
 const RegisterModal = ({ showModal, onClose }) => {
-  if (!showModal) return null;
-
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     password: '',
     confirmPassword: '',
   });
+  
+  if (!showModal) return null;
+
+  
 
   const handleChange = (e) => {
     const { name, value } = e.target;

@@ -38,9 +38,9 @@ const Navbar = ({ onSortByDate, onSortByComments, onSortByRandom }) => {
           <div className='flex'>
             <h3 className='text-right text-base'>
               VentItAllNow! is your space to voice your negative experiences with products or services.
-              Don’t hold back, express it now! Share your complaint quickly and help others stay informed. 
+              Don&apos;t hold back, express it now! Share your complaint quickly and help others stay informed. 
               <br/>
-              It's simple and straightforward. <span className='text-orange-500 font-bold'>Say it loud, say it now on VentItAllNow!!</span>
+              It&apos;s simple and straightforward. <span className='text-orange-500 font-bold'>Say it loud, say it now on VentItAllNow!!</span>
             </h3>
           </div>
           <ul className="flex justify-center space-x-8 mt-4">
