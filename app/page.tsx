@@ -33,7 +33,7 @@ export default function Home() {
   useEffect(() => {
     const fetchComplaints = async () => {
       try {
-        const response = await axios.get('http://127.0.0.1:8000/api/complaints/');
+        const response = await axios.get('https://djagodeploy.onrender.com/api/complaints/');
         setComplaints(response.data);
       } catch (error) {
         console.error('¡Hubo un error al obtener las quejas!', error);
