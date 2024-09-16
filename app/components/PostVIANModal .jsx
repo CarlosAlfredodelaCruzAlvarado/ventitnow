@@ -95,7 +95,7 @@ const PostVIANModal = ({ showModal, onClose }) => {
     console.log([...dataToSend]);  // Log the data being sent
 
     try {
-        const response = await axios.post('http://127.0.0.1:8000/api/complaints/', dataToSend, {
+        const response = await axios.post('https://djagodeploy.onrender.com/api/complaints/', dataToSend, {
             headers: {
                 'Content-Type': 'multipart/form-data',
             },
