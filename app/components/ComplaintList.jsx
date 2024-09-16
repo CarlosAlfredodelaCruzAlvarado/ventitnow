@@ -69,7 +69,7 @@ const ComplaintList = ({ complaints }) => {
     if (expandedComplaintId !== id && !commentList[id]) {
       try {
         const response = await axios.get(
-          `http://127.0.0.1:8000/api/comments/by_complaint/?complaint=${id}`
+          `https://djagodeploy.onrender.com/api/comments/by_complaint/?complaint=${id}`
         );
         setCommentList((prev) => ({
           ...prev,
@@ -84,7 +84,7 @@ const ComplaintList = ({ complaints }) => {
   const handleAddComment = async () => {
     if (newComment.trim().length >= 20 && userName.trim() && captchaVerified) {
       try {
-        const response = await axios.post(`http://127.0.0.1:8000/api/comments/`, {
+        const response = await axios.post(`https://djagodeploy.onrender.com/api/comments/`, {
           complaint: expandedComplaintId,
           user: userName,
           text: newComment,
